@@ -28,6 +28,17 @@ After all tasks are finished, log in to PgAdmin, and you should observe the `dev
 
 To extend this example with your DBT model, navigate to the `dbt/test_project` directory and add your own DBT models.
 
+Then trigger the dbt build by
+
+```bash
+docker exec -it airflow-dbt-example-airflow-dbt-1 /bin/bash   # log into the docker container
+cd /root/dbt/test_project
+dbt run
+dbt docs generate
+```
+
+Then wait for about 1 minute, the dag should be updated in airflow.
+
 ## Stop and clean up
 
 ```bash
