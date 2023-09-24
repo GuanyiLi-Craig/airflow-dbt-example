@@ -1,6 +1,6 @@
 # airflow-dbt-example
 
-A simple example of integrate DBT into airflow. 
+A simple example of integrate DBT into airflow inspired by instraction from https://www.datafold.com/blog/running-dbt-with-airflow. 
 
 ## Start the example
 
