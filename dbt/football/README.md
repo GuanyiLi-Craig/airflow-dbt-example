@@ -5,7 +5,7 @@ The data source is [Football data](https://www.kaggle.com/datasets/thedevastator
 ### Using the starter project
 
 Try running the following commands:
-- dbt run --profiles ..
+- dbt run --profiles-dir ..
 - dbt test
 
 
