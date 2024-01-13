@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "airflow-dbt-example"
+version = "0.1.0"
+description = "Demonstrating the integration of DBT (Data Build Tool) into Apache Airflow"
+authors = ["Guanyi Li"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+dbt-core = "^1.7.4"
+dbt-postgres = "^1.7.4"
+pytest = "^7.4.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

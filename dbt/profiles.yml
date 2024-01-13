@@ -1,0 +1,12 @@
+football:
+  outputs:
+    dev:
+      dbname: postgres
+      host: localhost
+      pass: postgrespw
+      port: 5432
+      schema: football
+      threads: 1
+      type: postgres
+      user: postgres
+  target: dev
