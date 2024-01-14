@@ -1,0 +1,1 @@
+Download data from Kaggle [Football data](https://www.kaggle.com/datasets/thedevastator/football-data-competitions-clubs-players-statist/data), and copy the extraced files to `./dbt/football/seeds/`
